@@ -73,9 +73,9 @@ h3 {
 }
 #openModal {
     display:inline;
-    width:30%;
+    width:25%;
     height:40px;
-    margin-left:30px;
+    margin-left:10px;
     background:gold;
     border-radius:10px;
     outline:none;  
@@ -84,7 +84,7 @@ h3 {
     display:inline;
     width:30%;
     height:40px;
-    margin-left:70px;
+    margin-left:10px;
     background:gold;
     border-radius:10px;
     outline:none;
@@ -191,7 +191,7 @@ button[type="submit"]:hover {
     background:pink;
     color:black;
 }
-.imagem {
+=.imagem {
     border-radius:50px;
 }
 #telefone {
@@ -228,6 +228,7 @@ button[type="submit"]:hover {
     text-align:center;
     margin-left:20%;
 }
+a {color:gold}
 </style>
 <body>
 <div id="myModal" class="modal">
@@ -257,10 +258,13 @@ button[type="submit"]:hover {
     <img src="https://raw.githubusercontent.com/SuaSortehoje/VivaSorte/main/vivaSorte7677.png" onclick="compra()" id="rodado" class="imagem">
 </a><br><br>
 
-<button class="blink" onclick="compra()" id="openModal"><b>COMPRAR</b></button>
+<button style="font-size:11px"; class="blink" onclick="compra()" id="openModal"><b>COMPRAR NO VENDEDOR</b></button>
+<a href="https://carlos-reis.comprevivasorte.com.br/?lm_source=reseller_whatsapp">
+<button class="blink"id="openModal"><b>COMPRAR NO SITE</b></button></a>
+
 
 <a href="resultadovivaSorte.html">
-    <button onclick="compra()" id="openModal1"><b>RESULTADO</b></button>
+    <button onclick="compra()" id="openModal1"><b>CONSULTA RESULTADO</b></button>
 </a>
 
 <script>
